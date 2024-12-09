@@ -19,7 +19,7 @@ def rename_folders(path_dir):
                 new_path = os.path.join(path_dir, new_name)
                 
                 os.rename(folder_full_path, new_path)
-                print(f"Renomeado: {folder} -> {new_name}")
+                print(f"Nome ANTERIOR: {folder} -> Nome ATUAL: {new_name}")
 
 # to use
 path_dir = '/mnt/disk1/Music/Name/'
